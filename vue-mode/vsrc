@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:vsrc
+# key:vsrc
+# description:image source binding
+# --
+
+<img :src=\"'/path/to/images/' + $1\" alt="$2" />

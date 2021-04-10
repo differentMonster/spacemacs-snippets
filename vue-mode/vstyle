@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:vstyle
+# key:vstyle
+# description:vue inline style binding
+# --
+
+<div :style=\" fontSize: $1 + 'px' \"></div>

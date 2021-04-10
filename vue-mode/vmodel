@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:vmodel
+# key:vm
+# description:v-model directive
+# --
+
+<input v-model="$1" type="$2" />

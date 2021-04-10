@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name:vanim
+# key:vanim
+# description:transition component js hooks
+# --
+
+<transition
+mode=\"out-in\"
+@before-enter=\"beforeEnter\"
+@enter=\"enter\"
+@before-leave=\"beforeLeave\"
+@leave=\"leave\"
+:css=\"false\">"
+
+</transition>

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:vroutename
+# key:vroutename
+# description:Named routing link
+# --
+
+<router-link :to=\"{name: '$1'}\">$2</router-link>

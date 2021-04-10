@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name:vfor
+# key:vf
+# description:vfor statement
+# --
+
+<div v-for=\"$2 in $1s\" :key=\"$2.id\">
+ {{ $2 }}
+</div>

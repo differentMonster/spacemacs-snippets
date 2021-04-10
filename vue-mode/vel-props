@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:vel-props
+# key:vel-props
+# description:component element with props
+# --
+
+<component :propName="$1"><component>

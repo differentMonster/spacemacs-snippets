@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:vmodel-num
+# key:vm-num
+# description:v-model directive number input
+# --
+
+<input v-model.number="$1" type="$2" step="$3" />
