@@ -12,4 +12,4 @@
                        ("vanim" "<transition\nmode=\\\"out-in\\\"\n@before-enter=\\\"beforeEnter\\\"\n@enter=\\\"enter\\\"\n@before-leave=\\\"beforeLeave\\\"\n@leave=\\\"leave\\\"\n:css=\\\"false\\\">\"\n\n</transition>" "vanim" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vanim" nil nil)))
 
 
-;;; Do not edit! File generated at Sat Oct 30 06:01:48 2021
+;;; Do not edit! File generated at Sun Oct 31 23:49:23 2021

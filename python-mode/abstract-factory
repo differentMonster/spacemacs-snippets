@@ -1,0 +1,64 @@
+# -*- mode: snippet -*-
+# name:Python Abstract Factory
+# key: pyabstractfactory
+# --
+import random
+from typing import Type
+
+
+class $3:
+    def __init__(self, name: str) -> None:
+        self.name = name
+
+    def speak(self) -> None:
+        raise NotImplementedError
+
+    def __str__(self) -> str:
+        raise NotImplementedError
+
+
+class $1($3):
+    def speak(self) -> None:
+        print("context1")
+
+    def __str__(self) -> str:
+        return f""$1"<{self.name}>"
+
+
+class $2($3):
+    def speak(self) -> None:
+        print("context2")
+
+    def __str__(self) -> str:
+        return f""$2"<{self.name}>"
+
+
+class $3Shop:
+
+
+    def __init__(self, animal_factory: Type[$3]) -> None:
+
+        self.pet_factory = animal_factory
+
+    def buy_pet(self, name: str) -> $3:
+
+        pet = self.pet_factory(name)
+        print(f"Here is your lovely {"$3"}")
+        return pet
+
+
+# Additional factories:
+
+# Create a random animal
+def random_animal(name: str) -> $3:
+    return random.choice([$1, $2])(name)
+
+
+# Show pets with various factories
+def main() -> None:
+
+if __name__ == "__main__":
+    random.seed(1234)  # for deterministic doctest outputs
+    import doctest
+
+    doctest.testmod()
