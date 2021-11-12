@@ -6,10 +6,11 @@ Project scope and vision:
 
 
 # Web-Mode
+  | Snippets | Purpose |
 
 # Vue-Mode
 * vue
-* vue-template [8/21]
+* vue-template [9/21]
 
   | Snippets   | Purpose                        |
   | vfor       | vfor statement                 |
@@ -21,7 +22,7 @@ Project scope and vision:
   | vanim      | trasnition component js hooks  |
   | vroutename | named rounting link            |
 
-  - [X] vfor : vfor statement
+  - [X] vfor: vfor statement
   - [X] vmodel: v-model directive
   - [X] vmodel-num: v-model directive number input
   - [ ] von: v-on click handler with arguments
@@ -41,6 +42,7 @@ Project scope and vision:
   - [ ] vroutepath: path routing link
   - [ ] vemit-child: vue Emit from child component
   - [ ] vemit-parent: vue Emit to parent component
+  - [X] vdata: vue component data
 
 * vue-pug
 * vue-script-router
@@ -50,5 +52,8 @@ Project scope and vision:
 * nuxt-config
 * nuxt-script
 
-
 # Python-Mode
+  | Snippets | Purpose |
+
+# Docker-Mode
+  | Snippets | Purpose |
