@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:vnuxtl
+# key: vnuxtl
+# description: nuxt routing link
+# --
+
+<nuxt-link to="$1">$0</nuxt-link>

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name:vcomputed
+# key:vcomputed
+# description:computed value
+# --
+
+computed: {
+{$1}() {
+return this.{$2.data} {$0}
+}
+},

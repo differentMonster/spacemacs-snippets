@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name:doclist
+# key:doclist
+# descption: docker mode test
+# --
+
+service: '3.8'
+
+
+network:
+wp-link:
+database:
+db:

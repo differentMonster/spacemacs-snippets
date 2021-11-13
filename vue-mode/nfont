@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:nfont
+# key:nfont
+# description: link to include fonts in a nuxt project, in nuxt-config
+# --
+
+{ rel: 'stylesheet', href: '$1'}

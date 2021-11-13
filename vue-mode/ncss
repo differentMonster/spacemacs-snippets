@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:ncss
+# key:ncss
+# description: link to css assets such as normalize
+# --
+
+css: ["'assets/$1'"],

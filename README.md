@@ -10,7 +10,7 @@ Project scope and vision:
 
 # Vue-Mode
 * vue
-* vue-template [9/21]
+* vue-template [13/25]
 
   | Snippets   | Purpose                        |
   | vfor       | vfor statement                 |
@@ -43,6 +43,10 @@ Project scope and vision:
   - [ ] vemit-child: vue Emit from child component
   - [ ] vemit-parent: vue Emit to parent component
   - [X] vdata: vue component data
+  - [X] vcomputed: vue computed
+  - [X] vnuxt1: nuxt routing link
+  - [X] nfont: link to include fonts in a nuxt project, in nuxt-config
+  - [X] ncss: link to css assets such as normalize
 
 * vue-pug
 * vue-script-router
