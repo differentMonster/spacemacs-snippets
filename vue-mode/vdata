@@ -4,6 +4,8 @@
 # description:Vue Component Data
 # --
 
-data() {
-return data
+data: function() {
+return {
+$0
+}
 },

@@ -60,4 +60,5 @@ Project scope and vision:
   | Snippets | Purpose |
 
 # Docker-Mode
+note : spacemacs only recongize docker file as dockerfile-mode not docker-mode
   | Snippets | Purpose |
