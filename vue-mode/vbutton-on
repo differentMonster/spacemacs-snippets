@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name:vbutton-on
+# key: vbutton-on
+# --
+<button @click="$0"></button>

@@ -47,6 +47,7 @@ Project scope and vision:
   - [X] vnuxt1: nuxt routing link
   - [X] nfont: link to include fonts in a nuxt project, in nuxt-config
   - [X] ncss: link to css assets such as normalize
+  - [X] vbutton-on: v-on click handler with arguments
 
 * vue-pug
 * vue-script-router
