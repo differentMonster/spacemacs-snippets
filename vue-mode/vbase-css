@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name:vbase-css
+# key: vbase-css
+# description: base for vue file component with CSS
+# --
+
+<template>
+ <div>
+  $0
+ </div>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style scoped>
+
+</style>

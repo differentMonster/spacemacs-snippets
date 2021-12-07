@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name:vfcomp
+# key: vfcomp
+# description: post statement for componet
+# --
+<$1 v-for=\"$3 in $2s\" :key=\"$3.id\" :$3=\"$3\" />

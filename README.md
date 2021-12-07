@@ -10,7 +10,7 @@ Project scope and vision:
 
 # Vue-Mode
 * vue
-* vue-template [13/25]
+* vue-template [15/27]
 
   | Snippets   | Purpose                        |
   | vfor       | vfor statement                 |
@@ -48,11 +48,19 @@ Project scope and vision:
   - [X] nfont: link to include fonts in a nuxt project, in nuxt-config
   - [X] ncss: link to css assets such as normalize
   - [X] vbutton-on: v-on click handler with arguments
+  - [X] vfcomp: vfor statement for components
 
 * vue-pug
 * vue-script-router
 * vue-script-vuex
 * vue-script
+* vue-json [6/6]
+  - [X] vbase: base for vue file component
+  - [X] vbase-sass: base for vue component with SASS
+  - [X] vbase-scss: base for vue component with SCSS
+  - [X] vbase-less: base for vue component with LESS
+  - [X] vbase-pcss: base for vue component with PCSS
+  - [X] vbase-css: base for vue component with CSS
 
 * nuxt-config
 * nuxt-script

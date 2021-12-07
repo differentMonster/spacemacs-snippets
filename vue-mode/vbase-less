@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name:vbase-less
+# key: vbase-less
+# description: base for vue file component with LESS
+# --
+
+<template>
+ <div>
+  $0
+ </div>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style lang=\"less\" scoped>
+
+</style>
