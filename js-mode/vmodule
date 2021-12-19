@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name:vmodule
+# key:vmodule
+# description:vuex module
+# --
+export default {
+  state : {
+    ${1:value} : ${2:myvalue}
+  },
+
+  getters : {
+    ${1:value} : state => {
+       return state.${1:value};
+     }
+  },
+
+  mutations : {
+    updateValue ( state, payload ) {
+       state.${1:value} = payload
+    }
+  },
+
+  actions : {
+    updateValue( {commit}, payload ) {
+       commit('updateValue', payload)
+    }
+  }
+}

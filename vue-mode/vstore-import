@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name:vstore-import
+# key:vstore-import
+# description:import vuex store into main.js
+# --
+import { store } from './store/$1';

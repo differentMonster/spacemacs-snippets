@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:vgetter
+# key:vgetter
+# description: vuex getters
+# --
+getters : {
+ ${1:value} : state => {
+   return state.${1:value}
+ }
+}

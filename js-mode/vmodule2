@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name:vmodule2
+# key:vmodule2
+# description:vuex module2
+# --
+export const state = () => ({
+   ${1:value}1 : ${2:myvalue}
+})
+
+export const getters = {
+  gettersValue : state => {
+    return state.${1:value}
+  }
+}
+
+export const mutations = {
+   updateValue : ( state, payload ) => {
+     state.${1:value} = payload
+   }
+}
+
+export const actions = {
+    updateActionValue( { commit } ) {
+      commit( 'updateValue', payload )
+    }
+}

@@ -53,7 +53,9 @@ Project scope and vision:
 * vue-pug
 * vue-script-router
 * vue-script-vuex
-* vue-script
+* vue-script [2/2]
+  - [X] vcommit: commit to vuex store in methods for mutation
+  - [X] vdispatch: dispatch to vuex store in methods for action
 * vue-json [6/6]
   - [X] vbase: base for vue file component
   - [X] vbase-sass: base for vue component with SASS
@@ -61,6 +63,14 @@ Project scope and vision:
   - [X] vbase-less: base for vue component with LESS
   - [X] vbase-pcss: base for vue component with PCSS
   - [X] vbase-css: base for vue component with CSS
+* vuex [7/7]
+  - [X] vstore: base for vuex store.js
+  - [X] vgetter: vuex getter
+  - [X] vmutation: vuex mutation
+  - [X] vaction: vuex action
+  - [X] vmodule: vuex module
+  - [X] vstore-import: import vuex store into main.js
+  - [X] vstore2: update base for vuex store
 
 * nuxt-config
 * nuxt-script
@@ -70,4 +80,7 @@ Project scope and vision:
 
 # Docker-Mode
 note : spacemacs only recongize docker file as dockerfile-mode not docker-mode
+  | Snippets | Purpose |
+
+# Js-Mode
   | Snippets | Purpose |

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:vaction
+# key:vaction
+# description:vuex action
+# --
+actions : {
+  ${1:updateValue}({commit}, ${2:payload}) {
+     commit('${1:updateValue}', ${2:payload})
+  }
+}
