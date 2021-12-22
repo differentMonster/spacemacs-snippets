@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name:@pa
+# key:@pa
+# description: provides the name, type, and description of a function parameter
+# --
+@param ${1:name} ${2:description}

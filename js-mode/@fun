@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name:@fun
+# key:@fun
+# description: Indicate that the variable refers to a function.
+# --
+@function ${1:FunctionName}

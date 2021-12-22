@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name:@pri
+# key:@pri
+# description:Marks a symbol as private, or not meant for general use (-p command line option to include these).
+# --
+@private

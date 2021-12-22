@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name:@cl
+# key:@cl
+# description: Marks a function as being a constructor, meant to be called with the new keyword to return an instance.
+# --
+@class ${1:type} ${2:name}

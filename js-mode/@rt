@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name:@rt
+# key:@rt
+# description:Synonym of @returns
+# --
+@return ${1:type} ${2:description}

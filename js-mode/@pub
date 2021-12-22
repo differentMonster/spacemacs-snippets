@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name:@pub
+# key:@pub
+# description: Indicates that a symbol should be documented as if it were public. By default, JSDoc treats all symbols as public. It doesn't affect the symbol scope. The @instance, @static, and @global tags may be used to change a symbol's scope.
+# --
+@public

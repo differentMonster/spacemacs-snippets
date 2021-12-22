@@ -83,4 +83,16 @@ note : spacemacs only recongize docker file as dockerfile-mode not docker-mode
   | Snippets | Purpose |
 
 # Js-Mode
+# Follow js-docs [ js-doc-describe-tag ]
+note: These are known as Tags in Javascript. They are used for documentation. You have rightly guessed that they help programmers to understand the code better.
   | Snippets | Purpose |
+
+* Tags [7/7]
+  - [X] @base : javascript tags base
+  - [X] @cl : @class Marks a functions as being a constructor, meant to be called with the
+              new keyword to return an instance.
+  - [X] @fun : @function Indicate that the variable refers to a function
+  - [X] @pa : @param provides the name, type, and description of a function parameter
+  - [X] @pri : @private Marks a symbol as private, or not meant for general use (-p command line option to include these).
+  - [X] @pub : @public Indicates that a symbol should be documented as if it were public. By default, JSDoc treats all symbols as public. It doesn't affect the symbol scope. The @instance, @static, and @global tags may be used to change a symbol's scope.
+  - [X] @rt : @return Synonym of @returns
