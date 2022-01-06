@@ -29,4 +29,4 @@
                        ("ncss" "css: [\"'assets/$1'\"]," "ncss" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/ncss" nil nil)))
 
 
-;;; Do not edit! File generated at Thu Dec 23 00:37:51 2021
+;;; Do not edit! File generated at Fri Jan  7 01:47:39 2022

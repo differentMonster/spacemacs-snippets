@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name:vrsbase
+# key:vrsbase
+# description: vue register your modules store
+# --
+// this path must be relative to .nuxt since it registered at Runtime
+import * as ${2:storeName} from '../modules/my-account/store/${1:filePath}.js'
+
+export default async ({
+store
+}) => {
+return await store.registerModule('$1', $2, {
+namespaced: $2.namespaced,
+})
+}

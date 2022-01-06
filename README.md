@@ -63,7 +63,7 @@ Project scope and vision:
   - [X] vbase-less: base for vue component with LESS
   - [X] vbase-pcss: base for vue component with PCSS
   - [X] vbase-css: base for vue component with CSS
-* vuex [7/7]
+* vuex [7/8]
   - [X] vstore: base for vuex store.js
   - [X] vgetter: vuex getter
   - [X] vmutation: vuex mutation
@@ -71,6 +71,11 @@ Project scope and vision:
   - [X] vmodule: vuex module
   - [X] vstore-import: import vuex store into main.js
   - [X] vstore2: update base for vuex store
+
+* modules-register [/]
+  # on js-mode
+  - [X] vrsbase: vue register your store
+  - [X] vrmbase: vue register your modules
 
 * nuxt-config
 * nuxt-script
