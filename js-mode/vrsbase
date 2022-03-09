@@ -4,7 +4,7 @@
 # description: vue register your modules store
 # --
 // this path must be relative to .nuxt since it registered at Runtime
-import * as ${2:storeName} from '../modules/my-account/store/${1:filePath}.js'
+import * as ${2:storeName} from '../modules/$1/store/${1:filePath}.js'
 
 export default async ({
 store

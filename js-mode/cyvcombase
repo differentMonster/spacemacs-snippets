@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name:cyvcombase
+# key:cyvcombase
+# description: cypress vue components test base
+# --
+
+import {
+mount
+} from '@cypress/vue'
+import ${1:componentname} from '../../components/$1.vue'
+
+describe('$1', () => {
+ $0
+})

@@ -101,3 +101,12 @@ note: These are known as Tags in Javascript. They are used for documentation. Yo
   - [X] @pri : @private Marks a symbol as private, or not meant for general use (-p command line option to include these).
   - [X] @pub : @public Indicates that a symbol should be documented as if it were public. By default, JSDoc treats all symbols as public. It doesn't affect the symbol scope. The @instance, @static, and @global tags may be used to change a symbol's scope.
   - [X] @rt : @return Synonym of @returns
+
+
+* Jest [1/1]
+  - [X] jestvuebase : jest test on vue base spec
+  - [X] jestit : jest it base
+
+* cypress [2/2]
+  - [X] cyvcombase : cypress vue components test
+  - [X] cydes : cypress describe base

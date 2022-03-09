@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name:jestvbase
+# key:jestvbase
+# description: jest testing vue spec base
+# --
+import {
+mount
+}
+from '@vue/test-utils'
+import $1 from '@/components/${1:components}.vue'
+
+describe('$1', () => {
+
+})

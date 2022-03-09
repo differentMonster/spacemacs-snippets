@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name:jestit
+# key: jestit
+# description: jest it should function
+# --
+
+it('$1', () => {
+  $0
+})

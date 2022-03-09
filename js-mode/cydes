@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name:cydes
+# key:cydes
+# description: cypress describe class
+# --
+
+describe('$1', () => {
+ $0
+})
