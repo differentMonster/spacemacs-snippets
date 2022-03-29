@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name:vmapmutations
+# key:vmapmutations
+# description: mapmutations inside a vue component
+# --
+import { mapMutations } from 'vuex'
+
+export default {
+   methods: {
+      //also supports payload `this.nameOfMutation(amount)
+      ...mapMutations(["${1:nameOfMutation}"])
+   }
+}

@@ -56,6 +56,15 @@ Project scope and vision:
 * vue-script [2/2]
   - [X] vcommit: commit to vuex store in methods for mutation
   - [X] vdispatch: dispatch to vuex store in methods for action
+  - [X] vmethod: vue method
+  - [X] vcomputed: computed value
+  - [X] vprops: vue props with default
+  - [X] vimport: import one component into another
+  - [X] vimport-export: import a component and include it in export default
+  - [X] vmapstate: map getters inside a vue component
+  - [X] vmapgetters: mapgetters inside a vue component
+  - [X] vmapmutations: mapmutations inside a vue component
+  - [X] vmapactions: mapactions inside a vue component
 * vue-json [6/6]
   - [X] vbase: base for vue file component
   - [X] vbase-sass: base for vue component with SASS

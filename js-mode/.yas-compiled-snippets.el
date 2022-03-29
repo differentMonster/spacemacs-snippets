@@ -11,7 +11,7 @@
                        ("vaction" "actions : {\n  ${1:updateValue}({commit}, ${2:payload}) {\n     commit('${1:updateValue}', ${2:payload})\n  }\n}\n" "vaction" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/js-mode/vaction" nil nil)
                        ("jestvbase" "import {\nmount\n}\nfrom '@vue/test-utils'\nimport $1 from '@/components/${1:components}.vue'\n\ndescribe('$1', () => {\n\n})" "jestvbase" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/js-mode/jestvbase" nil nil)
                        ("jestit" "it('$1', () => {\n  $0\n})\n" "jestit" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/js-mode/jestit" nil nil)
-                       ("cyvcombase" "import {\nmount\n} from '@cypress/vue'\nimport ${1:componentname} from '../../components/$1.vue'\n\ndescribe('$1', () => {\n\n})\n" "cyvcombase" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/js-mode/cyvcombase" nil nil)
+                       ("cyvcombase" "import {\nmount\n} from '@cypress/vue'\nimport ${1:componentname} from '../../components/$1.vue'\n\ndescribe('$1', () => {\n $0\n})\n" "cyvcombase" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/js-mode/cyvcombase" nil nil)
                        ("cydes" "describe('$1', () => {\n $0\n})\n" "cydes" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/js-mode/cydes" nil nil)
                        ("@rt" "@return ${1:type} ${2:description}\n" "@rt" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/js-mode/@rt" nil nil)
                        ("@pub" "@public\n" "@pub" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/js-mode/@pub" nil nil)
@@ -22,4 +22,4 @@
                        ("@base" "/**\n* ${1:Description}\n*/" "@base" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/js-mode/@base" nil nil)))
 
 
-;;; Do not edit! File generated at Thu Mar 10 01:58:03 2022
+;;; Do not edit! File generated at Wed Mar 30 05:41:08 2022

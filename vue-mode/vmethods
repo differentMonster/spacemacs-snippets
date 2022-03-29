@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name:vmethod
+# key:vmethod
+# description: vue method
+# --
+methods: {
+${1:name}(){
+$0
+}
+}

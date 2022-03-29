@@ -7,9 +7,17 @@
                        ("vstore" "import Vue from 'vue';\nimport Vuex from 'vuex';\n\nVue.use(Vuex);\n\nexport const store = new Vuex.Store({\n   state : {}\n})\n" "vstore" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vstore" nil nil)
                        ("vsrc" "<img :src=\\\"'/path/to/images/' + $1\\\" alt=\"$2\" />\n" "vsrc" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vsrc" nil nil)
                        ("vroutename" "<router-link :to=\\\"{name: '$1'}\\\">$2</router-link>\n" "vroutename" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vroutename" nil nil)
+                       ("vprops" "props: {\n  ${1:propName}: {\n    type: ${2:Number},\n    default: $0,\n}\n}\n" "vprops" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vprops" nil nil)
                        ("vnuxtl" "<nuxt-link to=\"$1\">$0</nuxt-link>" "vnuxtl" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vnuxtl" nil nil)
                        ("vm-num" "<input v-model.number=\"$1\" type=\"$2\" step=\"$3\" />\n" "vmodel-num" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vmodel-num" nil nil)
                        ("vm" "<input v-model=\"$1\" type=\"$2\" />" "vmodel" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vmodel" nil nil)
+                       ("vmethod" "methods: {\n${1:name}(){\n$0\n}\n}\n" "vmethod" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vmethods" nil nil)
+                       ("vmapstate" "import { mapState } from 'vuex'\n\nexport default {\n   computed: {\n      ...mapState([\"${1:nameOfState},\"])\n   }\n}\n" "vmapstate" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vmapstate" nil nil)
+                       ("vmapmutations" "import { mapMutations } from 'vuex'\n\nexport default {\n   methods: {\n      ...mapMutations([\"${1:nameOfMutation}, , //also supports payload `this.nameOfMutation(amount)`\"])\n   }\n}\n" "vmapmutations" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vmapmutations" nil nil)
+                       ("vmapgetters" "import { mapGetters } from 'vuex'\n\nexport default {\n   computed: {\n      ...mapGetters([\"${1:nameOfGetter},\"])\n   }\n}\n" "vmapgetters" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vmapgetters" nil nil)
+                       ("vmapactions" "import { mapActions } from 'vuex'\n\nexport default {\n   methods: {\n   ...mapActions([\"${1:nameOfAction}, //also supports payload `this.nameOfAction(amount)\"])\n   }\n}\n" "vmapactions" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vmapactions" nil nil)
+                       ("vimport-export" "import ${1:Name} from '@/components/$1.vue';\n\nexport default {\n   components: {\n      $1\n   }\n}\n" "vimport-export" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vimport-export" nil nil)
+                       ("vimport" "import ${1:New} from '@/components/$1.vue'\n" "vimport" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vimport" nil nil)
                        ("vfor" "<div v-for=\\\"$2 in $1s\\\" :key=\\\"$2.id\\\">\n {{ $2 }}\n</div>" "vfor" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vfor" nil nil)
                        ("vfcomp" "<$1 v-for=\\\"$3 in $2s\\\" :key=\\\"$3.id\\\" :$3=\\\"$3\\\" />\n" "vfcomp" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vfcomp" nil nil)
                        ("vel-props" "<component :propName=\"$1\"><component>\n" "vel-props" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/vel-props" nil nil)
@@ -29,4 +37,4 @@
                        ("ncss" "css: [\"'assets/$1'\"]," "ncss" nil nil nil "/home/monster/spacemacs/.emacs.d/snippets/vue-mode/ncss" nil nil)))
 
 
-;;; Do not edit! File generated at Thu Mar 10 01:58:03 2022
+;;; Do not edit! File generated at Wed Mar 30 05:41:08 2022

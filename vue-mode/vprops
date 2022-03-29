@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name:vprops
+# key:vprops
+# description: vue Props with Default
+# --
+props: {
+  ${1:propName}: {
+    type: ${2:Number},
+    default: $0,
+}
+}
