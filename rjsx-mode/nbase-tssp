@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name:nbase-tssp
+# key:nbase-tssp
+# description: typescript - pre-render this page at build time using the props returned
+# --
+
+export const getStaticProps: GetStaticProps = async (context) => {
+   return {
+     props: {
+       ${1:Item}
+     },
+   }
+}

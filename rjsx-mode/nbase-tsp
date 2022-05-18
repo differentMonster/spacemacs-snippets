@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name:nbase-tsp
+# key:nbase-tsp
+# description: Create Next Page with TypeScript interfaces
+# --
+
+import { NextPage } from 'next'
+
+interface Props {
+
+}
+
+const ${1:${TM_FILENAME_BASE}}: NextPage<Props> = () => {
+return (
+<div>
+$0
+</div>
+)
+}
+
+export default ${1:${TM_FILENAME_BASE}}

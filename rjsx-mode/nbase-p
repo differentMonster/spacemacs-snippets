@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name:nbase-p
+# key:nbase-p
+# description: create next page
+# --
+
+const ${1:${TM_FILENAME_BASE}} = () => {
+  return (
+   <div>
+
+   </div>
+  )
+}
+
+export default ${1:${TM_FILENAME_BASE}}

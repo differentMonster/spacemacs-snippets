@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name:nbase-spth
+# key:nbase-spth
+# description: define a list of paths to be statically generated.
+# --
+
+export const getStaticPaths = async () => {
+  return {
+    paths: [
+      {
+      params: {${1:Item}}
+      }
+    ],
+    fallback: true
+  }
+}

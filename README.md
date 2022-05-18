@@ -111,7 +111,6 @@ note: These are known as Tags in Javascript. They are used for documentation. Yo
   - [X] @pub : @public Indicates that a symbol should be documented as if it were public. By default, JSDoc treats all symbols as public. It doesn't affect the symbol scope. The @instance, @static, and @global tags may be used to change a symbol's scope.
   - [X] @rt : @return Synonym of @returns
 
-
 * Jest [1/1]
   - [X] jestvuebase : jest test on vue base spec
   - [X] jestit : jest it base
@@ -119,3 +118,14 @@ note: These are known as Tags in Javascript. They are used for documentation. Yo
 * cypress [2/2]
   - [X] cyvcombase : cypress vue components test
   - [X] cydes : cypress describe base
+
+# RJSX-Mode
+* rjsx-mode
+  - [X] nbase-p : create next page
+  - [X] nbase-tsp : create next page with typescript interface
+  - [X] nbase-sp : pre-render this page at build time using the props returned
+  - [X] nbase-tssp : pre-render this page at build time using the props returned with typescript
+  - [X] nbase-spth : define a list of paths to be statically generated
+  - [X] nbase-tsspth : define a list of paths to be statically generated with typescript
+  - [X] nbase-ssp : pre-render this page on each request using the data returned by, only runs on server-side and never runs on the browser.
+  - [X] nbase-tsssp : pre-render this page on each request using the data returned by, only runs on server-side and never runs on the browser with typescript

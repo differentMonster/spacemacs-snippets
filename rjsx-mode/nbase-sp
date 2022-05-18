@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name:nbase-sp
+# key:nbase-sp
+# description: pre-render this page at build time using the props returned
+# --
+
+export const getStaticProps = async (context) => {
+  return {
+    props: {
+       ${1:Item}
+    },
+  }
+}

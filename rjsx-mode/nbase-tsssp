@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name:nbase-tsssp
+# key:nbase-tsssp
+# description: pre-render this page on each request using the data returned by, only runs on server-side and never runs on the browser.
+# --
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+return {
+props: {${1:Item}}
+}
+}
