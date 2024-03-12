@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name:vclass
+# key: vclass
+# description: Vue Class Binding
+# --
+
+<div :class=\"${1:className}: ${2:data}\"></div>

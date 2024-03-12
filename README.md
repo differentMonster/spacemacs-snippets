@@ -10,7 +10,7 @@ Project scope and vision:
 
 # Vue-Mode
 * vue
-* vue-template [15/27]
+* vue-template [16/27]
 
   | Snippets   | Purpose                        |
   | vfor       | vfor statement                 |
@@ -31,7 +31,7 @@ Project scope and vision:
   - [X] vsrc: image source binding
   - [X] vstyle: vue inline style binding
   - [ ] vstyle-obj: vue inline style binding, objects
-  - [ ] vclass: vue class binding
+  - [X] vclass: vue class binding
   - [ ] vclass-obj: vue class binding
   - [ ] vclass-obj-mult: vue multiple conditional class bindings
   - [ ] vemit-child: vue Emit from child components
