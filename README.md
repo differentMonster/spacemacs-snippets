@@ -1,9 +1,5 @@
 # [ Spacemacs-Snippets ]
 
-<<<<<<< HEAD
-Project scope and vision: 1.Create easy Snippets template on web creation
-=======
-
 # Project scope and vision:
 
 1.Create easy Snippets template on web creation.
@@ -11,8 +7,6 @@ Project scope and vision: 1.Create easy Snippets template on web creation
 2.Complete vue2, vue3 snippets by time.
 
 3.Complete rjsx snippets by time.
-
->>>>>>> c36bd6bdd7167f745bbc3e06f5df3b4d6bf4831e
 
 # Web-Mode
 
@@ -154,7 +148,7 @@ snippets. In our case:
 
 snippets/ web-mode/ .yas-parents typescript-mode .yas-parents
 
-#+DOWNLOADED: file:///home/christophercheok/Downloads/tuqkk04dwiktgsjsgyb0.jpeg @ 2024-03-15 23:42:10 [[file:rjsx-mode/2024-03-15_23-42-10_tuqkk04dwiktgsjsgyb0.jpeg]]
+[[[[file:///home/christophercheok/Downloads/tuqkk04dwiktgsjsgyb0.jpeg]]]]
 
 Add these lines to the files:
 
