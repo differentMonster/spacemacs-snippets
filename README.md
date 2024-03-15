@@ -1,7 +1,8 @@
 # [ Spacemacs-Snippets ]
 
 
-Project scope and vision:
+# Project scope and vision:
+
 1.Create easy Snippets template on web creation.
 
 2.Complete vue2, vue3 snippets by time.
