@@ -148,7 +148,7 @@ snippets. In our case:
 
 snippets/ web-mode/ .yas-parents typescript-mode .yas-parents
 
-[[[[file:///home/christophercheok/Downloads/tuqkk04dwiktgsjsgyb0.jpeg]]]]
+[[file:///home/christophercheok/Downloads/tuqkk04dwiktgsjsgyb0.jpeg]]
 
 Add these lines to the files:
 
