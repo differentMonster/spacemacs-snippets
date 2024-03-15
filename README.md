@@ -1,6 +1,18 @@
 # [ Spacemacs-Snippets ]
 
+<<<<<<< HEAD
 Project scope and vision: 1.Create easy Snippets template on web creation
+=======
+
+# Project scope and vision:
+
+1.Create easy Snippets template on web creation.
+
+2.Complete vue2, vue3 snippets by time.
+
+3.Complete rjsx snippets by time.
+
+>>>>>>> c36bd6bdd7167f745bbc3e06f5df3b4d6bf4831e
 
 # Web-Mode
 
