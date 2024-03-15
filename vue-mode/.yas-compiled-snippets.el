@@ -38,4 +38,4 @@
                        ("ncss" "css: [\"'assets/$1'\"]," "ncss" nil nil nil "/home/christophercheok/.emacs.d/snippets/vue-mode/ncss" nil nil)))
 
 
-;;; Do not edit! File generated at Wed Mar 13 00:45:46 2024
+;;; Do not edit! File generated at Fri Mar 15 23:29:33 2024

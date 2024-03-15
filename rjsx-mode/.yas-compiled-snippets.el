@@ -2,7 +2,8 @@
 ;;; Snippet definitions:
 ;;;
 (yas-define-snippets 'rjsx-mode
-                     '(("nbase-tsssp" "export const getServerSideProps: GetServerSideProps = async (context) => {\nreturn {\nprops: {${1:Item}}\n}\n}\n" "nbase-tsssp" nil nil nil "/home/christophercheok/.emacs.d/snippets/rjsx-mode/nbase-tsssp" nil nil)
+                     '(("tsrce" "import React, { Component } from 'react'\n\ntype Props = {}\n\ntype State = {}\n\nclass $1 extends Component<Props, State> {\n  state = {}\n\n  render() {\n    return(\n      <div>\n      ${0:${first}}\n      </div>\n    )\n  }\n}\n\nexport default ${1:${TM_FILENAME_BASE}}" "tsrce" nil nil nil "/home/christophercheok/.emacs.d/snippets/rjsx-mode/tsrce" nil nil)
+                       ("nbase-tsssp" "export const getServerSideProps: GetServerSideProps = async (context) => {\nreturn {\nprops: {${1:Item}}\n}\n}\n" "nbase-tsssp" nil nil nil "/home/christophercheok/.emacs.d/snippets/rjsx-mode/nbase-tsssp" nil nil)
                        ("nbase-tsspth" "export const getStaticPaths: GetStaticPaths = async () => {\n  return {\n    paths:[\n      {\n      params: {${1:Item}}\n      }\n    ],\n    fallback: true\n  }\n}\n" "nbase-tsspth" nil nil nil "/home/christophercheok/.emacs.d/snippets/rjsx-mode/nbase-tsspth" nil nil)
                        ("nbase-tssp" "export const getStaticProps: GetStaticProps = async (context) => {\n   return {\n     props: {\n       ${1:Item}\n     },\n   }\n}\n" "nbase-tssp" nil nil nil "/home/christophercheok/.emacs.d/snippets/rjsx-mode/nbase-tssp" nil nil)
                        ("nbase-tsp" "import { NextPage } from 'next'\n\ninterface Props {\n\n}\n\nconst ${1:${TM_FILENAME_BASE}}: NextPage<Props> = () => {\nreturn (\n<div>\n$0\n</div>\n)\n}\n\nexport default ${1:${TM_FILENAME_BASE}}" "nbase-tsp" nil nil nil "/home/christophercheok/.emacs.d/snippets/rjsx-mode/nbase-tsp" nil nil)
@@ -12,4 +13,4 @@
                        ("nbase-p" "const ${1:${TM_FILENAME_BASE}} = () => {\n  return (\n   <div>\n\n   </div>\n  )\n}\n\nexport default ${1:${TM_FILENAME_BASE}}\n" "nbase-p" nil nil nil "/home/christophercheok/.emacs.d/snippets/rjsx-mode/nbase-p" nil nil)))
 
 
-;;; Do not edit! File generated at Wed Mar 13 00:45:46 2024
+;;; Do not edit! File generated at Fri Mar 15 23:29:33 2024
